@@ -23,9 +23,9 @@ It does not require you know about the webRTC or anything to use vica,
 
 - **Peer A** click top-right button `Create` to jump into login page 
 - **Peer A** click `Create Offer` to generate offer sdp, wait it until the offer contains `candidate`
-- **Peer A** copy the offer and send it to the peer you wanna talk to 
-- **Peer B**  click the Join button, and paste the the offer from **peer A** 
-- **Peer B**  proceed to next step and create answer sdp, wait it until the offer contains `candidate`
+- **Peer A** copy the offer and send it to **peer B** you wanna talk to 
+- **Peer B**  click the `Join` button, and paste the the offer from **peer A** and receive it
+- **Peer B**  proceed to next step and create answer sdp, wait it until the answer contains `candidate`
 - **Peer B** copy the answer and send it back to **Peer A**
 - **Peer A** paste the answer from **Peer B** and receive it.
 
